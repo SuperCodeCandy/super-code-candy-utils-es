@@ -1,26 +1,4 @@
 /**
- * @description 获取两个数之间的随机数
- * @param minNumber 最小数
- * @param maxNumber  最大数
- * @returns  获取到的值
- */
-declare const getBetweenRandomNumber: (minNumber: number, maxNumber: number) => number;
-
-/**
- * @description 睡眠函数
- * @param timer 需要睡眠多久 默认1000ms
- * @returns Promise<number>
- */
-declare const sleep: (timer?: number) => Promise<number>;
-/**
- * @description 随机随眠时间
- * @param minTime 最小睡眠时间 默认值 500
- * @param maxTime 最大睡眠时间 默认值 5000
- * @returns Promise<number>
- */
-declare const randomSleep: (minTime?: number, maxTime?: number) => Promise<number>;
-
-/**
  * @description 解析JSON串
  * @param str  需要解析的JSON串
  * @param initValue 如果掉用JSON.parse方法失败，返回的兜底值 默认值 {}
@@ -48,5 +26,27 @@ declare const formatStringToBigHumpString: (str?: string, flag?: string) => stri
  * @returns 转化后的数据
  */
 declare const formatStringToHumpString: (str?: string, flag?: string) => string;
+
+/**
+ * @description 获取两个数之间的随机数
+ * @param minNumber 最小数
+ * @param maxNumber  最大数
+ * @returns  获取到的值
+ */
+declare const getBetweenRandomNumber: (minNumber: number, maxNumber: number) => number;
+
+/**
+ * @description 睡眠函数
+ * @param timer 需要睡眠多久 默认1000ms
+ * @returns Promise<number>
+ */
+declare const sleep: (timer?: number) => Promise<number>;
+/**
+ * @description 随机随眠时间
+ * @param minTime 最小睡眠时间 默认值 500
+ * @param maxTime 最大睡眠时间 默认值 5000
+ * @returns Promise<number>
+ */
+declare const randomSleep: (minTime?: number, maxTime?: number) => Promise<number>;
 
 export { formatStringToBigHumpString, formatStringToHumpString, formatStringToUpperCase, getBetweenRandomNumber, jsonParse, randomSleep, sleep };

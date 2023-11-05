@@ -2,8 +2,8 @@
 	"name": "@super-code-candy/utils-es",
 	"version": "0.0.1",
 	"description": "@super-code-candy/utils es",
-	"module": "/index.es.js",
-	"types": "/index.d.ts",
+	"module": "index.es.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"push:p": "npm version patch -m 'version: update version to %s' && git push",
 		"push:m": "npm version major -m 'version: update version to %s' && git push"
