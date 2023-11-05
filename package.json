@@ -1,0 +1,24 @@
+{
+	"name": "@hlt/utils-es",
+	"version": "0.0.1",
+	"description": "hlt utils es",
+	"module": "/index.es.js",
+	"types": "/index.d.ts",
+	"scripts": {
+		"push:p": "npm version patch -m 'version: update version to %s' && git push",
+		"push:m": "npm version major -m 'version: update version to %s' && git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hlt-x/hlt-utils-basic"
+	},
+	"homepage": "https://github.com/hlt-x/hlt-utils-basic",
+	"keywords": [],
+	"author": "",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"license": "ISC",
+	"devDependencies": {}
+}
