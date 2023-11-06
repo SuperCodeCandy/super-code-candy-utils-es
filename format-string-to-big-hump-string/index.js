@@ -4,11 +4,8 @@
  * @param flag 字符标识符 默认值 '-'
  * @returns 转化后的数据
  */
-const formatStringToBigHumpString = (str = '', flag = '-') =>
-	str
-		.replace(new RegExp(`(^.{1})|(${flag}\\w{1})`, 'gi'), ($1) =>
-			$1.toLocaleUpperCase(),
-		)
-		.replace(new RegExp(`${flag}`, 'g'), '');
+const formatStringToBigHumpString = (str = '', flag = '-') => str
+    .replace(new RegExp(`(^.{1})|(${flag}\\w{1})`, 'gi'), ($1) => $1.toLocaleUpperCase())
+    .replace(new RegExp(`${flag}`, 'g'), '');
 
 export { formatStringToBigHumpString as default };
