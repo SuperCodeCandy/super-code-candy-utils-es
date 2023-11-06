@@ -6,4 +6,4 @@
  */
 const getBetweenRandomNumber = (minNumber, maxNumber) => Math.floor(Math.random() * (maxNumber - minNumber) + minNumber);
 
-export { getBetweenRandomNumber };
+export { getBetweenRandomNumber as default };

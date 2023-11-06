@@ -6,4 +6,4 @@
  */
 declare const getBetweenRandomNumber: (minNumber: number, maxNumber: number) => number;
 
-export { getBetweenRandomNumber };
+export { getBetweenRandomNumber as default };

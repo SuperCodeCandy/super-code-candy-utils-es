@@ -4,6 +4,8 @@
 	"description": "@super-code-candy/utils es",
 	"module": "index.es.js",
 	"types": "index.d.ts",
+	"main": "index.es.js",
+	"type": "module",
 	"scripts": {
 		"push:p": "npm version patch -m 'version: update version to %s' && git push",
 		"push:m": "npm version major -m 'version: update version to %s' && git push"
