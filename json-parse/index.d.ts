@@ -4,6 +4,6 @@
  * @param initValue 如果掉用JSON.parse方法失败，返回的兜底值 默认值 {}
  * @returns 解析后的结果
  */
-declare const jsonParse: <T extends object>(str: string, initValue?: T | undefined) => unknown;
+declare const jsonParse: <T>(str: string, initValue?: T | undefined) => unknown;
 
 export { jsonParse as default };
